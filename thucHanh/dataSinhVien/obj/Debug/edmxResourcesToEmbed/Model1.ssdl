@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="thongTinSinhVienModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'thongTinSinhVien.dbo.ThongTin' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="ThongTin">
+          <Property Name="Ma_SV" Type="nvarchar" MaxLength="15" />
+          <Property Name="Ho_Ten" Type="nvarchar" MaxLength="30" />
+          <Property Name="Ngay_Sinh" Type="date" />
+          <Property Name="gioi_tinh" Type="nvarchar" MaxLength="8" />
+          <Property Name="quen_quan" Type="nvarchar" MaxLength="15" />
+          <Property Name="lop" Type="nvarchar" MaxLength="8" />
+          <Property Name="khoa" Type="nvarchar" MaxLength="30" />
+        </EntityType>-->
+  <EntityContainer Name="thongTinSinhVienModelStoreContainer" />
+</Schema>

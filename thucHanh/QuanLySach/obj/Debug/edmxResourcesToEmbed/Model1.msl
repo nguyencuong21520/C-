@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CuongNekModelStoreContainer" CdmEntityContainer="CuongNekEntities">
+    <EntitySetMapping Name="loaisach">
+      <EntityTypeMapping TypeName="CuongNekModel.loaisach">
+        <MappingFragment StoreEntitySet="loaisach">
+          <ScalarProperty Name="maloai" ColumnName="maloai" />
+          <ScalarProperty Name="tenloai" ColumnName="tenloai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NXB">
+      <EntityTypeMapping TypeName="CuongNekModel.NXB">
+        <MappingFragment StoreEntitySet="NXB">
+          <ScalarProperty Name="manhaxuatban" ColumnName="manhaxuatban" />
+          <ScalarProperty Name="tennhaxuatban" ColumnName="tennhaxuatban" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sach">
+      <EntityTypeMapping TypeName="CuongNekModel.sach">
+        <MappingFragment StoreEntitySet="sach">
+          <ScalarProperty Name="masach" ColumnName="masach" />
+          <ScalarProperty Name="tenlnxb" ColumnName="tenlnxb" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="maloai" ColumnName="maloai" />
+          <ScalarProperty Name="manhaxuatban" ColumnName="manhaxuatban" />
+          <ScalarProperty Name="matacgia" ColumnName="matacgia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tacgia">
+      <EntityTypeMapping TypeName="CuongNekModel.Tacgia">
+        <MappingFragment StoreEntitySet="Tacgia">
+          <ScalarProperty Name="matacgia" ColumnName="matacgia" />
+          <ScalarProperty Name="tentacgia" ColumnName="tentacgia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,15 @@
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\obj\Debug\QuanLySach.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\obj\Debug\QuanLySach.Form1.resources
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\obj\Debug\QuanLySach.Properties.Resources.resources
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\obj\Debug\QuanLySach.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\obj\Debug\QuanLySach.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\bin\Debug\QuanLySach.exe.config
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\bin\Debug\QuanLySach.exe
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\bin\Debug\QuanLySach.pdb
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\bin\Debug\EntityFramework.dll
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\bin\Debug\EntityFramework.xml
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\obj\Debug\QuanLySach.csproj.CopyComplete
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\obj\Debug\QuanLySach.exe
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLySach\obj\Debug\QuanLySach.pdb

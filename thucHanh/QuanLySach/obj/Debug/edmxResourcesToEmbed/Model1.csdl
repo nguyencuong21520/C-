@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CuongNekModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="loaisach">
+    <Key>
+      <PropertyRef Name="maloai" />
+    </Key>
+    <Property Name="maloai" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="tenloai" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="sach" Relationship="Self.FK__sach__maloai__164452B1" FromRole="loaisach" ToRole="sach" />
+  </EntityType>
+  <EntityType Name="NXB">
+    <Key>
+      <PropertyRef Name="manhaxuatban" />
+    </Key>
+    <Property Name="manhaxuatban" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="tennhaxuatban" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="sach" Relationship="Self.FK__sach__manhaxuatb__173876EA" FromRole="NXB" ToRole="sach" />
+  </EntityType>
+  <EntityType Name="sach">
+    <Key>
+      <PropertyRef Name="masach" />
+    </Key>
+    <Property Name="masach" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="tenlnxb" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="soluong" Type="Int32" />
+    <Property Name="Dongia" Type="Int32" />
+    <Property Name="maloai" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="manhaxuatban" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="matacgia" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="loaisach" Relationship="Self.FK__sach__maloai__164452B1" FromRole="sach" ToRole="loaisach" />
+    <NavigationProperty Name="NXB" Relationship="Self.FK__sach__manhaxuatb__173876EA" FromRole="sach" ToRole="NXB" />
+    <NavigationProperty Name="Tacgia" Relationship="Self.FK__sach__matacgia__182C9B23" FromRole="sach" ToRole="Tacgia" />
+  </EntityType>
+  <EntityType Name="Tacgia">
+    <Key>
+      <PropertyRef Name="matacgia" />
+    </Key>
+    <Property Name="matacgia" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="tentacgia" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="sach" Relationship="Self.FK__sach__matacgia__182C9B23" FromRole="Tacgia" ToRole="sach" />
+  </EntityType>
+  <Association Name="FK__sach__maloai__164452B1">
+    <End Role="loaisach" Type="Self.loaisach" Multiplicity="1" />
+    <End Role="sach" Type="Self.sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="loaisach">
+        <PropertyRef Name="maloai" />
+      </Principal>
+      <Dependent Role="sach">
+        <PropertyRef Name="maloai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sach__manhaxuatb__173876EA">
+    <End Role="NXB" Type="Self.NXB" Multiplicity="1" />
+    <End Role="sach" Type="Self.sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NXB">
+        <PropertyRef Name="manhaxuatban" />
+      </Principal>
+      <Dependent Role="sach">
+        <PropertyRef Name="manhaxuatban" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sach__matacgia__182C9B23">
+    <End Role="Tacgia" Type="Self.Tacgia" Multiplicity="1" />
+    <End Role="sach" Type="Self.sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tacgia">
+        <PropertyRef Name="matacgia" />
+      </Principal>
+      <Dependent Role="sach">
+        <PropertyRef Name="matacgia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CuongNekEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="loaisach" EntityType="Self.loaisach" />
+    <EntitySet Name="NXB" EntityType="Self.NXB" />
+    <EntitySet Name="sach" EntityType="Self.sach" />
+    <EntitySet Name="Tacgia" EntityType="Self.Tacgia" />
+    <AssociationSet Name="FK__sach__maloai__164452B1" Association="Self.FK__sach__maloai__164452B1">
+      <End Role="loaisach" EntitySet="loaisach" />
+      <End Role="sach" EntitySet="sach" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sach__manhaxuatb__173876EA" Association="Self.FK__sach__manhaxuatb__173876EA">
+      <End Role="NXB" EntitySet="NXB" />
+      <End Role="sach" EntitySet="sach" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sach__matacgia__182C9B23" Association="Self.FK__sach__matacgia__182C9B23">
+      <End Role="Tacgia" EntitySet="Tacgia" />
+      <End Role="sach" EntitySet="sach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,10 @@
+C:\Users\nguye\Desktop\C#\thucHanh\timSo\bin\Debug\timSo.exe.config
+C:\Users\nguye\Desktop\C#\thucHanh\timSo\bin\Debug\timSo.exe
+C:\Users\nguye\Desktop\C#\thucHanh\timSo\bin\Debug\timSo.pdb
+C:\Users\nguye\Desktop\C#\thucHanh\timSo\obj\Debug\timSo.Form1.resources
+C:\Users\nguye\Desktop\C#\thucHanh\timSo\obj\Debug\timSo.Properties.Resources.resources
+C:\Users\nguye\Desktop\C#\thucHanh\timSo\obj\Debug\timSo.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\C#\thucHanh\timSo\obj\Debug\timSo.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\C#\thucHanh\timSo\obj\Debug\timSo.exe
+C:\Users\nguye\Desktop\C#\thucHanh\timSo\obj\Debug\timSo.pdb
+C:\Users\nguye\Desktop\C#\thucHanh\timSo\obj\Debug\timSo.csprojAssemblyReference.cache
