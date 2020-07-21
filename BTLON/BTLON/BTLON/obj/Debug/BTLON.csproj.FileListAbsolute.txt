@@ -1,0 +1,30 @@
+C:\Users\ASUS\Desktop\New folder\BTLON\BTLON\bin\Debug\BTLON.exe.config
+C:\Users\ASUS\Desktop\New folder\BTLON\BTLON\bin\Debug\BTLON.exe
+C:\Users\ASUS\Desktop\New folder\BTLON\BTLON\bin\Debug\BTLON.pdb
+C:\Users\ASUS\Desktop\New folder\BTLON\BTLON\obj\Debug\BTLON.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\New folder\BTLON\BTLON\obj\Debug\BTLON.Form1.resources
+C:\Users\ASUS\Desktop\New folder\BTLON\BTLON\obj\Debug\BTLON.Properties.Resources.resources
+C:\Users\ASUS\Desktop\New folder\BTLON\BTLON\obj\Debug\BTLON.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\New folder\BTLON\BTLON\obj\Debug\BTLON.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\New folder\BTLON\BTLON\obj\Debug\BTLON.exe
+C:\Users\ASUS\Desktop\New folder\BTLON\BTLON\obj\Debug\BTLON.pdb
+C:\Users\ASUS\Desktop\BTLON\BTLON\bin\Debug\BTLON.exe.config
+C:\Users\ASUS\Desktop\BTLON\BTLON\bin\Debug\BTLON.exe
+C:\Users\ASUS\Desktop\BTLON\BTLON\bin\Debug\BTLON.pdb
+C:\Users\ASUS\Desktop\BTLON\BTLON\obj\Debug\BTLON.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\BTLON\BTLON\obj\Debug\BTLON.Form1.resources
+C:\Users\ASUS\Desktop\BTLON\BTLON\obj\Debug\BTLON.Properties.Resources.resources
+C:\Users\ASUS\Desktop\BTLON\BTLON\obj\Debug\BTLON.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\BTLON\BTLON\obj\Debug\BTLON.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\BTLON\BTLON\obj\Debug\BTLON.exe
+C:\Users\ASUS\Desktop\BTLON\BTLON\obj\Debug\BTLON.pdb
+C:\Users\nguye\Desktop\New folder\BTLON\BTLON\BTLON\obj\Debug\BTLON.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\New folder\BTLON\BTLON\BTLON\obj\Debug\BTLON.Form1.resources
+C:\Users\nguye\Desktop\New folder\BTLON\BTLON\BTLON\obj\Debug\BTLON.Properties.Resources.resources
+C:\Users\nguye\Desktop\New folder\BTLON\BTLON\BTLON\obj\Debug\BTLON.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\New folder\BTLON\BTLON\BTLON\obj\Debug\BTLON.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\New folder\BTLON\BTLON\BTLON\obj\Debug\BTLON.pdb
+C:\Users\nguye\Desktop\New folder\BTLON\BTLON\BTLON\bin\Debug\BTLON.exe.config
+C:\Users\nguye\Desktop\New folder\BTLON\BTLON\BTLON\bin\Debug\BTLON.exe
+C:\Users\nguye\Desktop\New folder\BTLON\BTLON\BTLON\bin\Debug\BTLON.pdb
+C:\Users\nguye\Desktop\New folder\BTLON\BTLON\BTLON\obj\Debug\BTLON.exe
