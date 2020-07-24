@@ -1,0 +1,15 @@
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\bin\Debug\QuanLyXeBus.exe.config
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\bin\Debug\QuanLyXeBus.exe
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\bin\Debug\QuanLyXeBus.pdb
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\bin\Debug\EntityFramework.dll
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\bin\Debug\EntityFramework.xml
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\obj\Debug\QuanLyXeBus.csprojAssemblyReference.cache
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\obj\Debug\QuanLyXeBus.Form1.resources
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\obj\Debug\QuanLyXeBus.Properties.Resources.resources
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\obj\Debug\QuanLyXeBus.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\obj\Debug\QuanLyXeBus.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\obj\Debug\QuanLyXeBus.csproj.CopyComplete
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\obj\Debug\QuanLyXeBus.exe
+C:\Users\nguye\Desktop\C#\thucHanh\QuanLyXeBus\QuanLyXeBus\obj\Debug\QuanLyXeBus.pdb

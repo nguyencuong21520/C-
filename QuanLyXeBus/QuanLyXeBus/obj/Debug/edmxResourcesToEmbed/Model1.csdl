@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BusModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="khacHang">
+    <Key>
+      <PropertyRef Name="vitringoi" />
+    </Key>
+    <Property Name="vitringoi" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenKhach" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tuoi" Type="Int32" />
+    <Property Name="GiaBan" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="BusEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="khacHangs" EntityType="Self.khacHang" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BusModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="khacHang">
+    <Key>
+      <PropertyRef Name="vitringoi" />
+    </Key>
+    <Property Name="vitringoi" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="TenKhach" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Tuoi" Type="int" />
+    <Property Name="GiaBan" Type="int" />
+  </EntityType>
+  <EntityContainer Name="BusModelStoreContainer">
+    <EntitySet Name="khacHang" EntityType="Self.khacHang" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
